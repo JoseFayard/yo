@@ -35,7 +35,8 @@ header {
     background-color: #10ac84; }
 
 small {
-  display: block; }
+  display: block;
+  font-size: 60%; }
 
 i {
   margin-right: 10px; }
