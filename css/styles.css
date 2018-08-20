@@ -47,6 +47,9 @@ i {
 .contacto {
   padding-bottom: 100px; }
 
+#certifications {
+  padding-bottom: 50px; }
+
 @media screen and (max-width: 1024px) {
   .img-line {
     padding: 100px 30px; }
