@@ -1,3 +1,10 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .img-line {
   background-image: linear-gradient(to right top, #10ac84, #00aa8e, #00a897, #00a69e, #01a3a4); }
 
@@ -46,6 +53,36 @@ i {
 
 .contacto {
   padding-bottom: 100px; }
+
+.card-ctfction {
+  border-radius: 5px;
+  padding: 0;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); }
+  .card-ctfction .img-wrapper {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    box-shadow: 400px 200px rgba(0, 0, 0, 0.5) inset;
+    background-image: url(../img/University\ of\ London.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+    .card-ctfction .img-wrapper h4 {
+      position: absolute;
+      line-height: 40px;
+      top: 50%;
+      display: block;
+      margin-top: -20px;
+      text-align: center;
+      width: 100%;
+      color: #fff; }
+  .card-ctfction .text-wrapper {
+    padding: 20px; }
+
+.hk .img-wrapper {
+  background-image: url(../img/University\ of\ Hong\ Kong.png); }
 
 #certifications {
   padding-bottom: 50px; }
